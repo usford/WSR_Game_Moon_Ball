@@ -24,6 +24,7 @@ public class MainBall : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         cube = GameObject.Find("Cube");
         cube.SetActive(false);
+        Cursor.visible = true;
     }
 
     private void FixedUpdate()
