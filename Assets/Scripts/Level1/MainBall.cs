@@ -29,7 +29,6 @@ public class MainBall : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
     }
 
     void Update()
@@ -51,7 +50,6 @@ public class MainBall : MonoBehaviour
         }
 
         if (checkClick) Acceleration();
-
 
 
     }
