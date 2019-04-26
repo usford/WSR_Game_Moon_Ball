@@ -34,7 +34,6 @@ public class Hole : MonoBehaviour
                 Debug.Log("Основной попал в лунку");
                 panel.SetActive(true);
                 Cursor.visible = true;
-                SceneManager.LoadScene("Level2", LoadSceneMode.Single);
             }
 
             Destroy(col.gameObject);
